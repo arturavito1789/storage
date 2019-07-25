@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="133.0" prefWidth="382.0" style="-fx-background-color: transparnt;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLLoadOperationController">
+   <children>
+      <Canvas fx:id="canvasClient" height="101.0" layoutX="1.0" style="-fx-background-color: red;" width="131.0" />
+      <Circle fx:id="cicleAnim" fill="#31f5c4" layoutX="149.0" layoutY="52.0" opacity="0.74" radius="15.0" stroke="#75e886" strokeType="INSIDE" />
+      <Canvas fx:id="canvasServer" height="101.0" layoutX="250.0" width="131.0" />
+      <Text layoutX="42.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 1.5em; -fx-font-family: Quicksand; -fx-fill: #fc0517;" text="Обмен информацией с сервером" textAlignment="CENTER" wrappingWidth="303.21484375" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="36.78515625" />
+   </children>
+</AnchorPane>

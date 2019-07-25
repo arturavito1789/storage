@@ -1,0 +1,6 @@
+.list-cell{
+    -fx-text-fill: #23ba9c; 
+    -fx-font-style: italic;
+    -fx-font-size:  1.5em;
+    -fx-font-family:  Satisfy;
+}
